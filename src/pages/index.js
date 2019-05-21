@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="FloripaJS • A maior comunidade front-end de Florianópolis" />
-    <h1>A maior comunidade front-end de Florianópolis</h1>
+    {/* <h1>A maior comunidade front-end de Florianópolis</h1> */}
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
